@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*Element Selector*/
+        h1{
+            color:color-mix(in srgb, color percentage, color percentage)
+        }
+        /*class selector*/
+        .a{color:aqua;
+        }
+        /*ID selector*/
+        #abc{
+            background-color: black;
+        }
+        /*universal selector*/
+        *{ background-color: brown;
+        }
+        /*child selector*/
+        ul>li{
+            background-color: chocolate;
+        }
+        /*attribute selector*/
+        input[type="email"]{
+            color:chartreuse;
+        }
+        /*grouping selector*/
+        h2,h3,h4{
+            background-color: beige;
+        }
+    </style>
+</head>
+<body>
+    <!--Element selector-->
+    <h1>This is Element selector </h1>
+    <!--Class Selector-->
+    <div class="a">This is a class selector</div>
+    <!--ID Selector-->
+    <p id="abc">This is aID Selector</p>
+    <!--Descendent Selector-->
+    <div>This is content in div tag
+        <p>this is paragraph 1 in div tag</p>
+        <p>this is paragraph 2 in div tag</p>
+    </div>
+    <!--child selector-->
+    <p>List of Items</p>
+    <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+    </ul>
+    <!--attribute selector-->
+    <label for="name">Name : </label>
+    <input type="text" name="name" id="name">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
+    <label for="password">Password</label>
+    <input type="text" name="password" id="password">
+    <!--Grouping selector-->
+    <h2>This is heading 2</h2>
+    <h3>This is heading 3</h3>
+    <h4>This is heading 4</h4>
+    <div>End</div>
+    
+</body>
+</html>
